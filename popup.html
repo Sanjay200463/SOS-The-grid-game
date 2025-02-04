@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOS Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Front Page -->
+    <div id="front-page">
+        <button id="play-button">Play</button>
+    </div>
+
+    <!-- Game Page (Initially Hidden) -->
+    <div id="game-page" class="hidden">
+        <div class="game-container">
+            <div class="scoreboard">
+                <h2>SOS Game</h2>
+                <div class="score-section">
+                    <p>Player 1: <span id="score1">0</span></p>
+                    <p>Player 2: <span id="score2">0</span></p>
+                </div>
+                <div class="choice-buttons">
+                    <button id="choose-s">Choose S</button>
+                    <button id="choose-o">Choose O</button>
+                </div>
+                <button id="reset">Reset</button>
+                <p id="status">Player 1's turn. Choose S or O.</p>
+            </div>
+            <div id="board"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
