@@ -11,8 +11,8 @@ body {
   overflow: hidden;
 }
 
-/* Front Page Styles */
-#front-page {
+/* Front Page Styles  css*/
+#front-page { 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -61,7 +61,7 @@ body {
 .hidden {
   display: none;
 }
-
+/* Game Page Styles */
 #game-page {
   display: flex;
   flex-direction: column;
